@@ -158,7 +158,7 @@ header li a {
     background-color: #313F38;
 }
 .image{
-    background-image: url("main1.svg");
+    background-image: url("mainImages/main1.svg");
     width: 100%;
     height: 588px;
     background-repeat: no-repeat;
@@ -275,7 +275,7 @@ header li a {
 }
 
 .left{
-    background-image: url("main2.svg");
+    background-image: url("mainImages/main2.svg");
     background-repeat: no-repeat;
     background-size: 443px, 636px;
     width: 900px;
@@ -377,7 +377,14 @@ header li a {
 .paras img{
     margin-left: 20px;
 }
-
+.paras .rooms{
+    color: #FCD043;
+    display: inline;
+}
+.paras .andAppartments{
+    color: #FFFCF6;
+    display: inline;
+}
 .rooms_appartments{
     width: 100%;
     height: 1240px;
@@ -422,7 +429,7 @@ header li a {
     float: right;
     width: 500px;
     height: 700px;
-    background-image: url("main4.svg");
+    background-image: url("mainImages/main4.svg");
     position: relative;
     margin-right: 20px;
 }
@@ -732,7 +739,7 @@ header li a {
     margin-top: 300px;
     width: 100%;
     height: 800px;
-    background-image: url("main11.svg");
+    background-image: url("mainImages/main11.svg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1138,6 +1145,8 @@ footer{
     height: 64px;
     margin-bottom: -30px;
     color: #FFFCF6;
+    background-color: #fffcf6;
+    border: 1px solid #313F38;
 }
 .social{
     width: 350px;
@@ -1151,6 +1160,7 @@ footer{
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    
 }
 
 .medias{
@@ -1163,4 +1173,8 @@ footer{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+}
+
+.slash{
+    color: #FCD043;
 }
