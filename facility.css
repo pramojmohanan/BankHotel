@@ -1,0 +1,546 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height:  5008px;;
+    background: #313F38;
+}
+header{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    
+}
+.bankHotel{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+header ul{
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: block;
+    color: #FFFCF6;
+    margin: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+header li a {
+    text-decoration: none;
+    color: #FFFCF6;
+}
+.phNumber{
+    margin-right: 20px;
+}
+hr{
+    height: 2px;
+    background-color: #3F5148
+    ;
+    border: none;
+}
+.title{
+    position: absolute;
+    width: 926px;
+    height: 105px;
+    left: 30px;
+    top: 60px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 105px;
+    /* identical to box height, or 84% */
+    /* Secondary color */
+    color: #FCD043;
+
+}
+.stitle{
+    position: absolute;
+    width: 305px;
+    height: 61px;
+    left: 30px;
+    top: 350px;
+
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 61px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFCF6;
+}
+.para{
+    position: absolute;
+width: 350px;
+height: 224px;
+right: 160px;
+top: 400px;
+
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* or 156% */
+
+
+/* White */
+
+color: #FFFCF6;
+
+opacity: 0.8;
+}
+.diningImg{
+    background-image: url("dining.svg");
+    
+    position: absolute;
+    width: 950px;
+    height: 620px;
+    left: 30px;
+    top: 770px;
+}
+.cafeteriaImg{
+    background-image: url("cadeteria.svg");
+    position: absolute;
+    width: 470.86px;
+    height: 500px;
+    right: 30px;
+    top: 770px;
+}
+.header h3{
+    position: absolute;
+    width: 240px;
+    height: 44px;
+    left: 30px;
+    top: 1470px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 44px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    /* White */
+    color: #FFFCF6;
+}
+.header p{
+    position: absolute;
+    display: inline;
+    width: 493px;
+    height: 196px;
+    left: 30px;
+    top: 1554px;
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 156% */
+    /* White */
+    color: #FFFCF6;
+    opacity: 0.8;
+}
+.header h2{
+    position: absolute;
+    width: 600px;
+    height: 140px;
+    left: 760px;
+    top: 1900px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    letter-spacing: 0.03em;
+    /* White */
+    color: #FFFCF6;
+}
+.inner1{
+    background-image: url("inside1.svg");
+    
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 358.29px;
+    height: 445px;
+    left: 30px;
+    top: 2140px;
+    
+}
+.inner2{
+    background-image: url("inside2.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 810px;
+    height: 445px;
+    right: 30px;
+    top: 2140px;
+    
+}
+.bookspara{
+    color: #FFFCF6;
+}
+.bookspara h3{
+    position: absolute;
+    width: 335px;
+    height: 66px;
+    left: 30px;
+    top: 2608px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FCD043;
+}
+.bookspara h2{
+    position: absolute;
+    width: 335px;
+    height: 88px;
+    left: 676px;
+    top: 2700px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.bookspara .para{
+    position: absolute;
+    width: 442px;
+    height: 196px;
+    left: 676px;
+    top: 2837px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+}
+.bookspara .number{
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    right: 30px;
+    top: 3200px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.getIn .parra{
+    position: absolute;
+    width: 240px;
+    height: 44px;
+    left: 30px;
+    top: 3304px;
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+.getIn .get{
+    position: absolute;
+    width: 731px;
+    height: 250px;
+    left: 20px;
+    top: 3398px;
+
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 250px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+.getIn .touch{
+    
+position: absolute;
+width: 847px;
+height: 250px;
+left: 574px;
+bottom: 720px;
+
+font-family: 'Tapestry';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 250px;
+/* identical to box height, or 100% */
+
+text-transform: uppercase;
+
+/* Secondary color */
+
+color: #FCD043;
+}
+
+.getIn .star{
+    background-image: url("yellowStar.svg");
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 811px;
+    top: 3653px;
+
+}
+.getIn .chair{
+    background-image: url("chair.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 335px;
+    height: 503.63px;
+    left: 967px;
+    top: 3625px;
+}
+
+.room h3{
+    position: absolute;
+    width: 284px;
+    height: 31px;
+    left: 30px;
+    top: 4208px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+.room .inOut{
+    position: absolute;
+    width: 552px;
+    height: 110px;
+    left: 30px;
+    top: 4339px;
+    background-color: #FFFCF6;
+    opacity: 0.1;
+}
+.room .checkIn{
+    position: absolute;
+    width: 113.42px;
+    height: 17.5px;
+    left: 52px;
+    top: 4370px;
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    color: #FFFCF6;
+}
+.room .up{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 210px;
+    top: 4385px;
+}
+.room .checkOut{
+    position: absolute;
+    width: 113.42px;
+    height: 17.5px;
+    left: 348px;
+    top: 4370px;
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 125% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFCF6;
+}
+.room .down{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 528px;
+    top: 4390px;
+}
+.border{
+    position: absolute;
+    width: 1px;
+    height: 55px;
+    left: 290px;
+    top: 4369px;
+    background-color: #FFFCF6;
+    opacity: 0,2;
+}
+.yellow{
+    position: absolute;
+    height: 110px;
+    width: 250px;
+    top: 4339px;
+    left: 580px;
+
+/* Secondary color */
+
+background-color: #FCD043;
+}
+.bookRoom{
+    position: absolute;
+    top: 4369px;
+    left: 649px;
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+/* or 111% */
+
+text-align: center;
+text-transform: uppercase;
+}
+
+.divider{
+    position: absolute;
+    width: 1450px;
+    height: 1px;
+    left: 30px;
+    top: 4550px;
+    background-color: #FFFCF6;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95.6%;
+    height: 300px;
+    position: absolute;
+    top: 4600px;
+    left: 30px;
+    color: #FFFCF6;
+   
+}
+.aboutus{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutus div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.aboutus p {
+    margin-top: 50px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.aboutus .copy{
+    color: #FFFCF6;
+
+    opacity: 0.4;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 100px;
+}
+.news{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.news div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.news p{
+    margin-top: 50px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.news .input{
+    margin-top: 40px;
+    width: 285px;
+    height: 64px;
+    margin-bottom: -30px;
+}
+.social{
+    width: 350px;
+}
+.social .h3{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.medias{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}

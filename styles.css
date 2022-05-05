@@ -1,0 +1,1166 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    
+}
+header{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-style: normal;
+
+    background-color: #313F38;
+}
+.bankHotel{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+header ul{
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: block;
+    color: #FFFCF6;
+    margin: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+header li a {
+    text-decoration: none;
+    color: #FFFCF6;
+}
+.phNumber{
+    margin-right: 20px;
+}
+
+.Title{
+    width: 100%;
+    background-color: #313F38;
+    display: flex;
+    flex-direction: row;
+    
+}
+.mainTitle{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.mainTitle .bank{
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    color: #FFFCF6;
+    display: inline;
+}
+.mainTitle .hotel{
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    color: #FCD043;
+    display: inline;
+}
+.mainTitle p{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FCD043;
+}
+.since{
+    display: flex;
+    flex-direction: column;
+    
+}
+.octagon{
+    background-image: url("octagon.svg");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 500px;
+    
+}
+.octagon img{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.button{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.button button{
+    border: 1px solid rgba(255, 252, 246, 1);
+    
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 99px;
+    background-color: #313F38;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #FFFCF6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.button button img{
+    padding-top: -12px;
+}
+.button button p{
+    padding-left: 20px;
+    text-align: center;
+    
+}
+.para{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFCF6;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.titleImage{
+    background-color: #313F38;
+}
+.image{
+    background-image: url("main1.svg");
+    width: 100%;
+    height: 588px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.roomOptions{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.roomOptions .buttons{
+    display: inline;
+    margin-left: 30px;
+    width: 820px;
+    height: 100px;
+    margin-left: 638px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFCF6;
+
+}
+.roomOptions .buttons .checkin{
+    width: 295px;
+    border: none;
+    background-color: #313F38;
+    opacity: 48%;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFCF6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.roomOptions  .buttons .checkout{
+    width: 295px;
+    border: none;
+    background-color: #313F38;
+    opacity: 48%;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFCF6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.roomOptions .buttons .room{
+    width: 230px;
+    background-color: #FCD043;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px; 
+    border: none;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+
+.imagedetails{
+    position: relative;
+}
+.imagedetails .num{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.imagedetails .num1{
+    
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FCD043;
+}
+.imagedetails .paraa{
+   
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+.imagedetails h3{
+    position: absolute;
+    color: #FFFCF6;
+    width: 160px;
+    height: 50px;
+    top: -10px;
+    right: 30px;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+
+
+}
+
+.doubleImages{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    height: 800px;
+}
+
+.left{
+    background-image: url("main2.svg");
+    background-repeat: no-repeat;
+    background-size: 443px, 636px;
+    width: 900px;
+    height: 636px;
+    margin-left: 20px;
+    float: left;
+}
+.left .aboutUs{
+    width: 400px;
+    height: 210px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 70px;
+    /* or 84% */
+
+    text-align: right;
+    text-transform: uppercase;
+    padding-left: 350px;
+}
+.left .aboutUs .about{
+    color: #FCD043;
+}
+.left .aboutUs .us{
+    color: #FFFCF6;
+}
+.quote{
+    width: 300px;
+    height: 200px;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.quote h3{
+    width: 170px;
+    height: 40px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #FFFCF6;
+}
+.quote p{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 156% */
+
+
+    /* White */
+
+    color: #FFFCF6;
+
+    opacity: 0.64;
+}
+.right{
+   
+   display: flex;
+   flex-direction: column;
+
+}
+
+.right .img1{
+    margin-left: 300px;
+    height:230px;
+}
+.right .img2{
+    margin-left: 330px;
+    margin-top: 230px;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    
+}
+
+.paras{
+    position: relative;
+    width: 144px;
+    height: 150px;
+    
+    padding-left: 40px;
+    background-image: url("mainbigoctagon.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.paras .p{
+    width: 70px;
+    height: 15px;
+    margin-bottom: 55px;
+}
+.paras img{
+    margin-left: 20px;
+}
+
+.rooms_appartments{
+    width: 100%;
+    height: 1240px;
+    background-color: #FFFCF6;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.heading h1{
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 105px;
+    /* or 84% */
+
+    text-transform: uppercase;
+    width: 800px;
+    height: 200px;
+}
+
+.heading p{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    width: 300px;
+    height: 60px;
+    margin-top: 110px;
+}
+
+.desc{
+    position: relative;
+    width: 100%;
+
+}
+.photo{
+    float: right;
+    width: 500px;
+    height: 700px;
+    background-image: url("main4.svg");
+    position: relative;
+    margin-right: 20px;
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    margin-top: 450px;
+    margin-left: 270px;
+    position: relative;
+    
+}
+.photo p{
+    position: absolute;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 289px;
+    margin-top: -90px;
+}
+.content{
+    float: left;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.desc .content .contentRight .button button{
+    background-color: #FFFCF6;
+    color: black;
+    border-color: #313F38;
+}
+
+.contentRight h3{
+    width: 200px;
+    height: 40px;
+    
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+.contentRight .superiorPara{
+    width: 300px;
+    height: 180px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 100px;
+
+    opacity: 0.8;
+}
+.contentLeft{
+    position: relative;
+}
+.contentLeft .octa{
+    margin-top: 280px;
+    width: 150px;
+    height: 150px;
+    
+}
+.contentLeft i{
+   position: absolute;
+   margin-top: 330px;
+   margin-left: -90px;
+}
+
+.line{
+    width: 95%;
+    margin-left: 37px;
+    height: 1px;
+    background-color: #313F38;
+}
+
+
+.facilities{
+    background-color: #FFFCF6;
+    padding-top: 150px;
+    width: 100%;
+    height: 1800px;
+
+}
+.facillitiesHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.facillitiesHead p{
+    width: 120px;
+    height: 36px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}
+
+
+.facillitiesHead h2{
+    width: 500px;
+    height: 300px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 105px;
+    text-transform: uppercase;
+}
+
+.facillitiesHead .main6{
+    width: 300px;
+    height: 200px;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.secondHead{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.secondHead p{
+    width: 340px;
+    height: 130px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.facility1{
+    margin-top: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.facility1Right{
+    float: right;
+    padding-right: 20px;
+}
+.facility1Left{
+    float: left;
+    padding-left: 20px;
+}
+
+.f1lL{
+    float: left;
+    position: relative;
+}
+
+.f1lL img{
+    margin-top: 350px;
+}
+
+.f1lL i{
+    position: absolute;
+    padding-top: 400px;
+    margin-left: -100px;
+}
+
+
+.f1lRight{
+    float: right;
+    margin-left: 250px;
+}
+
+
+.f1lRight p{
+    width: 300px;
+    height: 170px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    opacity: 0.8;
+}
+.f1lRight .facilityNum1{
+
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+}
+
+.f1lRight .facility1Head{
+    margin-top: 200px;
+    width: 240px;
+    height: 100px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+
+
+.facility{
+    width: 100%;
+    height: auto;
+    background-color: #FFFCF6;
+}
+
+.facility2{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.facility2 h2{
+    width: 62px;
+    height: 50px;
+    
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.facility2 h1{
+    width: 367px;
+    height: 50px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.facility3{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.facility3 h2{
+    width: 62px;
+    height: 50px;
+    
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.facility3 h1{
+    width: 367px;
+    height: 50px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.bestApartment{
+    margin-top: 300px;
+    width: 100%;
+    height: 800px;
+    background-image: url("main11.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+.bestApartment h1{
+    width: 800px;
+    height: 195px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 95px;
+    text-transform: uppercase;
+    color: #FCD043;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+ 
+.bestApartment p{
+    width: 300px;
+    height: 60px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    color: #FCD043;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+.bestApartment img{
+    width: 100%;
+    margin-top: -280px;
+}
+
+.gallery{
+    background-color: #313F38;
+    width: 100%;
+    height: auto;
+}
+
+.ourGallery{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.galleryCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+.galleryCenter h1{
+    width: 700px;
+    height: 100px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 99px;
+    line-height: 105px;
+    /* identical to box height, or 84% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Secondary color */
+
+    color: #FCD043;
+}
+
+.galleryCenter p{
+    width: 400px;
+    height: 100px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 156% */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFCF6;
+
+    opacity: 0.8;
+}
+.yellowOctagon{
+    position: relative;
+}
+
+.yellowOctagon img{
+    position: absolute;
+    margin-left: -290px;
+    width: 50px;
+    height: 50px;
+}
+.yellowOctagon p{
+    margin-left: -290px;
+    margin-top: -1px;
+    position: absolute;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* White */
+
+    color: #FFFCF6;
+
+    opacity: 0.8;
+}
+
+.main12{
+    width: 600px;
+    height: 400px;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+.galleryLeft{
+    padding-top: 600px;
+    padding-left: 20px;
+    width: 350px;
+    height: auto;
+}
+.main14{
+    margin-top: 300px;
+}
+
+.galleryRight{
+    width: 350px;
+    height: auto;
+    padding-top: 600px;
+    position: relative;
+    
+    
+}
+
+.main16{
+    margin-top: 700px;
+    position: relative;
+    
+}
+
+.bankHotelC{
+    margin-top: -100px;
+    width: 100%;
+    height: 240px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 97px;
+    line-height: 105px;
+    /* or 120% */
+    color: rgba(255, 252, 246, 0.12);
+    padding-bottom: 100px;
+}
+.bankHotelC p{
+    color: #FFFCF6;
+}
+
+
+.premium{
+    width: 100%;
+    height: auto;
+    background-color: #FFFCF6;
+    padding-bottom: 140px;
+    margin-top: -50px;
+    
+}
+
+
+.contactNum p{
+    width: 390px;
+    height: 40px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.contactNum h5{
+    width: 210px;
+    height: 36px;
+    font-size: 18px;
+    float: right;
+    margin-right: 220px;
+ 
+}
+
+.get{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.get h1{
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    padding-left: 10px;
+    width: 715px;
+    height: 220px;
+    margin-top: 200px;
+    
+}
+.get .star{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    
+    margin-left: 50px;
+    margin-top: 250px;
+    
+}
+.get .chair{
+    width: 310px;
+    height: 330px;
+   
+    margin-left: 50px;
+    margin-top: 200px;
+    
+   
+}
+
+.touch h1{
+    position: absolute;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    text-transform: uppercase;
+    color: #FCD043;
+    right: 30px;
+    bottom: 260px;
+
+}
+
+.findRoom{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.findRoom h2{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    margin-left: 30px;
+}
+.findRoom .buttons{
+    margin-left: 30px;
+    width: 820px;
+    height: 100px;
+    padding: 0;
+    border: 1px solid #313F38;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFCF6;
+    margin-top: 100px;
+    
+
+}
+.findRoom .buttons .checkin{
+    width: 295px;
+    border: none;
+    background-color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.findRoom .buttons .checkout{
+    width: 295px;
+    border: none;
+    background-color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.findRoom .buttons .room{
+   
+    width: 230px;
+  
+    margin-bottom: -1px;
+    background-color: #313F38;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 420px;
+    position: absolute;
+   background-color: #FFFCF6;
+    color: #1B3B36;
+   
+   
+}
+.aboutus{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutus div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.aboutus p {
+    margin-top: 50px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.aboutus .copy{
+    color: #1B3B36;
+
+    opacity: 0.4;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 80px;
+    
+}
+.news{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.news div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.news p{
+    margin-top: 50px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.news .input{
+    margin-top: 40px;
+    width: 285px;
+    height: 64px;
+    margin-bottom: -30px;
+    color: #FFFCF6;
+}
+.social{
+    width: 350px;
+}
+.social .h3{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.medias{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}

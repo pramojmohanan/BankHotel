@@ -1,0 +1,526 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-style: normal;
+   
+    background-color: #313F38;
+    
+}
+.bankHotel{
+   
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+header ul{
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: block;
+    color: #FFFCF6;
+    margin: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+header li a {
+    text-decoration: none;
+    color: #FFFCF6;
+}
+.phNumber{
+    margin-right: 20px;
+}
+
+.roomHero{
+ 
+    width: 100%;
+    height: 700px;
+    background-image: url("room1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.roomHero .head h1{
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 125px;
+    line-height: 150px;
+    width: 600px;
+    height: 300px;
+    color: #FCD043;
+    margin: 0;
+    padding: 30px;
+}
+.right{
+    float: left;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    width: 325px;
+    height: 66px;
+    padding: 30px;
+    margin-top: 100px;
+/* Secondary color */
+
+color: #FCD043;
+}
+
+.left{
+    float: right;
+    width: 175px;
+    height: 175px;
+    margin-top: 100px;
+    position: relative;
+}
+.left p{
+    position: absolute;
+    top: 50px;
+    right: 55px;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+   
+}
+.standard{
+    background-color: #313F38;
+}
+.sinceButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.starSince{
+    display: flex;
+    flex-direction: row;
+    /* White */
+    width: 150px;
+    border: 1px solid #FFFCF6;
+    box-sizing: border-box;
+    border-radius: 99px;
+    height: 50px;
+}
+.starSince p{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 10px;
+    color: #FFFCF6;
+}
+
+.starSince img{
+    margin: 10px;
+}
+.quotes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.bigQuote{
+    width: 630px;
+    height: 180px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #FFFCF6;
+    
+    margin-right: 120px;
+}
+
+.smallQuote{
+    width: 295px;
+    height: 186px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFCF6;
+    opacity: 0.8;
+    margin-top: 50px;
+    
+}
+.pStd h2{
+    width: 313px;
+    height: 48px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #FCD043;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.imageCentering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.pStdImage{
+    
+    background-image: url("room2.svg");
+    background-repeat: no-repeat;
+  
+    width: 1164px;
+    height: 679px;
+}
+
+
+.premium{
+    width: 100%;
+    height: 2800px;
+    background-color: #FFFCF6;
+   
+
+}
+.premiumImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 200px;
+}
+.premiumLeftImage{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.premiumLeftImage h2{
+    width: 225px;
+    height: 44px;
+    
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+.premiumLeftImage p{
+    width: 320px;
+    height: 92px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    opacity: 0.8;
+}
+.premiumRightImage{
+    display: flex;
+    flex-direction: column;
+}
+.premiumRightImage p{
+    margin-top: 80px;
+    width: 400px;
+    height: 170px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.curvedButton button{
+    width: 240px;
+    height: 65px;
+    border-radius: 99px;
+    border: 1px solid #313F38;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.contactNum p{
+    width: 390px;
+    height: 40px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 200px;
+    margin-left: 10px;
+    
+}
+
+.contactNum h5{
+    width: 210px;
+    height: 36px;
+    font-size: 18px;
+    float: right;
+    margin-right: 220px;
+    margin-top: 50px;
+}
+
+.get{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.get h1{
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    padding-left: 10px;
+    width: 715px;
+    height: 220px;
+    margin-top: 200px;
+    
+}
+.get .star{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    
+    margin-left: 50px;
+    margin-top: 250px;
+    
+}
+.get .chair{
+    width: 310px;
+    height: 330px;
+   
+    margin-left: 50px;
+    margin-top: 200px;
+    
+   
+}
+
+.touch h1{
+    position: absolute;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    text-transform: uppercase;
+
+    color: #FCD043;
+    right: 30px;
+    bottom: 360px;
+
+}
+
+.findRoom{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.findRoom h2{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    margin-left: 30px;
+}
+.findRoom .buttons{
+    margin-left: 30px;
+    width: 820px;
+    height: 100px;
+    padding: 0;
+    border: 1px solid #313F38;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFCF6;
+    margin-top: 100px;
+    
+
+}
+.findRoom .buttons .checkin{
+    width: 295px;
+    border: none;
+    background-color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.findRoom .buttons .checkout{
+    width: 295px;
+    border: none;
+    background-color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.findRoom .buttons .room{
+   
+    width: 230px;
+    margin-top: -1px;
+    background-color: #313F38;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 420px;
+    position: absolute;
+   background-color: #FFFCF6;
+    color: #1B3B36;
+   
+   
+}
+.aboutus{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutus div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.aboutus p {
+    margin-top: 50px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.aboutus .copy{
+    color: #1B3B36;
+
+    opacity: 0.4;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 80px;
+    
+}
+.news{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.news div{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.news p{
+    margin-top: 50px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.news .input{
+    margin-top: 40px;
+    width: 285px;
+    height: 64px;
+    margin-bottom: -30px;
+    color: #FFFCF6;
+}
+.social{
+    width: 350px;
+}
+.social .h3{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.medias{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.line{
+    width: 95%;
+    margin-left: 37px;
+    height: 1px;
+    background-color: #313F38;
+}
