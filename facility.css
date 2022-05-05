@@ -111,8 +111,7 @@ color: #FFFCF6;
 opacity: 0.8;
 }
 .diningImg{
-    background-image: url("dining.svg");
-    
+    background-image: url("facilityImages/facility1.svg"); 
     position: absolute;
     width: 950px;
     height: 620px;
@@ -120,7 +119,7 @@ opacity: 0.8;
     top: 770px;
 }
 .cafeteriaImg{
-    background-image: url("cadeteria.svg");
+    background-image: url("facilityImages/facility2.svg");
     position: absolute;
     width: 470.86px;
     height: 500px;
@@ -178,7 +177,7 @@ opacity: 0.8;
     color: #FFFCF6;
 }
 .inner1{
-    background-image: url("inside1.svg");
+    background-image: url("facilityImages/facility3.svg");
     
     background-repeat: no-repeat;
     position: absolute;
@@ -189,7 +188,7 @@ opacity: 0.8;
     
 }
 .inner2{
-    background-image: url("inside2.svg");
+    background-image: url("facilityImages/facility4.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 810px;
@@ -309,7 +308,7 @@ color: #FCD043;
 }
 
 .getIn .star{
-    background-image: url("yellowStar.svg");
+    background-image: url("lighterImages/yellowStar.svg");
     position: absolute;
     width: 100px;
     height: 100px;
@@ -318,7 +317,7 @@ color: #FCD043;
 
 }
 .getIn .chair{
-    background-image: url("chair.svg");
+    background-image: url("lighterImages/chair.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 335px;
@@ -543,4 +542,7 @@ footer{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+}
+.slash{
+    color: #FCD043;
 }

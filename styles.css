@@ -91,7 +91,7 @@ header li a {
     
 }
 .octagon{
-    background-image: url("octagon.svg");
+    background-image: url("lighterImages/octagon.svg");
     background-repeat: no-repeat;
     width: 70px;
     height: 70px;
@@ -362,7 +362,7 @@ header li a {
     height: 150px;
     
     padding-left: 40px;
-    background-image: url("mainbigoctagon.svg");
+    background-image: url("lighterImages/mainbigoctagon.svg");
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
