@@ -3,19 +3,20 @@ body{
     padding: 0;
     position: relative;
     width: 100%;
-    height:  5008px;;
-    background: #313F38;
+    background-color: #313F38;
+    
 }
 header{
     width: 100%;
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #FFFCF6;
     font-family: 'EB Garamond';
     font-style: normal;
-    
+
+    background-color: #313F38;
 }
 .bankHotel{
     margin-left: 20px;
@@ -47,412 +48,405 @@ header li a {
 .phNumber{
     margin-right: 20px;
 }
-hr{
-    height: 2px;
-    background-color: #3F5148
-    ;
-    border: none;
+
+.line{
+    color: rgba(63, 81, 72, 1);
+    
+    width: 100%;
+    border: 1px solid #3F5148;
 }
-.title{
-    position: absolute;
-    width: 926px;
-    height: 105px;
-    left: 30px;
-    top: 60px;
-    font-family: 'Tapestry';
+
+
+
+.head{
+    width: 100%;
+    height: 3000px;
+    
+
+}
+.heading h1{
+    width: 1241px;
+    height: 130px;
+    font-family: 'Miracle';
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
-    line-height: 105px;
-    /* identical to box height, or 84% */
-    /* Secondary color */
+    font-size: 120px;
+    line-height: 130px;
     color: #FCD043;
-
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    
+    margin-left: 20px;
 }
-.stitle{
-    position: absolute;
-    width: 305px;
-    height: 61px;
-    left: 30px;
-    top: 350px;
+.secondHeading{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    
+}
 
-    font-family: 'Tapestry';
+.secondHeading h2{
+   
+    width: 350px;
+    height: 70px;
+    font-family: 'Miracle';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 61px;
-    /* identical to box height */
-
+    font-size: 50px;
+    line-height: 60px;
     text-transform: capitalize;
-
-    /* White */
-
     color: #FFFCF6;
+    float: left;
+    margin-left: 20px;
 }
-.para{
-    position: absolute;
-width: 350px;
-height: 224px;
-right: 160px;
-top: 400px;
 
-font-family: 'EB Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 22px;
-/* or 156% */
-
-
-/* White */
-
-color: #FFFCF6;
-
-opacity: 0.8;
-}
-.diningImg{
-    background-image: url("facilityImages/facility1.svg"); 
-    position: absolute;
-    width: 950px;
-    height: 620px;
-    left: 30px;
-    top: 770px;
-}
-.cafeteriaImg{
-    background-image: url("facilityImages/facility2.svg");
-    position: absolute;
-    width: 470.86px;
-    height: 500px;
-    right: 30px;
-    top: 770px;
-}
-.header h3{
-    position: absolute;
-    width: 240px;
-    height: 44px;
-    left: 30px;
-    top: 1470px;
-    font-family: 'Tapestry';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 44px;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    /* White */
-    color: #FFFCF6;
-}
-.header p{
-    position: absolute;
-    display: inline;
-    width: 493px;
-    height: 196px;
-    left: 30px;
-    top: 1554px;
-
-    font-family: 'EB Garamond';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 156% */
-    /* White */
-    color: #FFFCF6;
-    opacity: 0.8;
-}
-.header h2{
-    position: absolute;
-    width: 600px;
-    height: 140px;
-    left: 760px;
-    top: 1900px;
-    font-family: 'Tapestry';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
-    /* or 100% */
-    letter-spacing: 0.03em;
-    /* White */
-    color: #FFFCF6;
-}
-.inner1{
-    background-image: url("facilityImages/facility3.svg");
-    
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 358.29px;
-    height: 445px;
-    left: 30px;
-    top: 2140px;
-    
-}
-.inner2{
-    background-image: url("facilityImages/facility4.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 810px;
-    height: 445px;
-    right: 30px;
-    top: 2140px;
-    
-}
-.bookspara{
-    color: #FFFCF6;
-}
-.bookspara h3{
-    position: absolute;
-    width: 335px;
-    height: 66px;
-    left: 30px;
-    top: 2608px;
-    font-family: 'EB Garamond';
+.secondHeading p{
+    width: 300px;
+    height: 240px;
+    float: right;
+    font-family: 'Helvetica Neue LT Std';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-transform: uppercase;
-    color: #FCD043;
-}
-.bookspara h2{
-    position: absolute;
-    width: 335px;
-    height: 88px;
-    left: 676px;
-    top: 2700px;
-    font-family: 'Tapestry';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
+    color: #FFFCF6;
+    opacity: 0.8;
+    margin-right: 250px;
+    margin-top: 50px;
+
 }
 
-.bookspara .para{
-    position: absolute;
-    width: 442px;
-    height: 196px;
-    left: 676px;
-    top: 2837px;
-    font-family: 'EB Garamond';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    opacity: 0.8;
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 700px;
+    
 }
-.bookspara .number{
-    position: absolute;
-    width: 330px;
+.img1{
+    width: 900px;
+    height: 700px;
+}
+.img2{
+    margin-top: 55px;
+    width: 500px;
+    height: 500px;
+}
+
+.service h2{
+    width: 300px;
     height: 50px;
-    right: 30px;
-    top: 3200px;
-    font-family: 'EB Garamond';
+    font-family: 'Miracle';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
-    text-align: center;
+    padding-left: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFCF6;
 }
-.getIn .parra{
-    position: absolute;
-    width: 240px;
-    height: 44px;
-    left: 30px;
-    top: 3304px;
 
-    font-family: 'EB Garamond';
+.service p{
+    
+    width: 350px;
+    height: 166px;
+    
+    font-family: 'Helvetica Neue LT Std';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    text-transform: uppercase;
+    
     color: #FFFCF6;
+    margin-left: 20px;
+    opacity: 0.8;
 }
-.getIn .get{
-    position: absolute;
-    width: 731px;
-    height: 250px;
-    left: 20px;
-    top: 3398px;
 
+.description h2{
+    width: 700px;
+    height: 150px;
+    left: 818px;
+    top: 2454px;
+
+    font-family: 'Miracle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    float: right;
+    color: #FFFCF6;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.photo2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.photo2Left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.photo2Left h3{
+    width: 350px;
+    height: 70px;
+    font-family: 'Helvetica Neue LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FCD043;
+    padding-left: 20px;
+    margin-top: 70px;
+}
+
+.photo2Left .img3{
+    width: 400px;
+    height: 450px;
+}
+
+.photo2Right{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo2Right .img4{
+    width: 1000px;
+    height: 450px;
+}
+
+.photo2Right h2{
+    width: 350px;
+    height: 100px;
+    font-family: 'Miracle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #FFFCF6;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.photo2Right p{
+    width: 350px;
+    height: 160px;
+    font-family: 'Helvetica Neue LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFCF6;
+    opacity: 0.8;
+    padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.premium{
+    width: 100%;
+    height: auto;
+    background-color: #313F38;
+    padding-bottom: 140px;
+    margin-top: 300px;
+    color: #FFFCF6;
+    
+}
+
+
+.contactNum p{
+    width: 390px;
+    height: 40px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+    
+}
+
+.contactNum h5{
+    width: 210px;
+    height: 36px;
+    font-size: 18px;
+    float: right;
+    margin-right: 220px;
+   
+ 
+}
+
+.get{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.get h1{
     font-family: 'Tapestry';
     font-style: normal;
     font-weight: 400;
     font-size: 200px;
-    line-height: 250px;
-    text-transform: uppercase;
-    color: #FFFCF6;
-}
-.getIn .touch{
+    padding-left: 10px;
+    width: 715px;
+    height: 220px;
+    margin-top: 200px;
     
-position: absolute;
-width: 847px;
-height: 250px;
-left: 574px;
-bottom: 720px;
-
-font-family: 'Tapestry';
-font-style: normal;
-font-weight: 400;
-font-size: 200px;
-line-height: 250px;
-/* identical to box height, or 100% */
-
-text-transform: uppercase;
-
-/* Secondary color */
-
-color: #FCD043;
+    
+}
+.get .star{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    
+    margin-left: 50px;
+    margin-top: 250px;
+    
+}
+.get .chair{
+    width: 310px;
+    height: 330px;
+   
+    margin-left: 50px;
+    margin-top: 200px;
+    
+   
 }
 
-.getIn .star{
-    background-image: url("lighterImages/yellowStar.svg");
+.touch h1{
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 811px;
-    top: 3653px;
+    font-family: 'Tapestry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    text-transform: uppercase;
+    color: #FCD043;
+    right: 30px;
+    bottom: 260px;
 
 }
-.getIn .chair{
-    background-image: url("lighterImages/chair.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 335px;
-    height: 503.63px;
-    left: 967px;
-    top: 3625px;
+
+.findRoom{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
-.room h3{
-    position: absolute;
-    width: 284px;
-    height: 31px;
-    left: 30px;
-    top: 4208px;
+.findRoom h2{
     font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 31px;
-    text-transform: uppercase;
-    color: #FFFCF6;
+    margin-left: 30px;
 }
-.room .inOut{
-    position: absolute;
-    width: 552px;
-    height: 110px;
-    left: 30px;
-    top: 4339px;
+.findRoom .buttons{
+    margin-left: 30px;
+    width: 800px;
+    height: 100px;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: row;
     background-color: #FFFCF6;
-    opacity: 0.1;
-}
-.room .checkIn{
-    position: absolute;
-    width: 113.42px;
-    height: 17.5px;
-    left: 52px;
-    top: 4370px;
+    margin-top: 100px;
+    
 
+}
+.findRoom .buttons .checkin{
+    width: 290px;
+    border: none;
+    background-color: #FFFCF6;
+    
+   
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.findRoom .buttons .checkout{
+    width: 290px;
+    border: none;
+    
+    
+    background-color: #FFFCF6;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.findRoom .buttons .room{
+   border: none;
+    width: 220px;
+  
+    margin-bottom: -1px;
+    background-color: #FCD043;
     font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 20px;
     text-transform: uppercase;
-
-    color: #FFFCF6;
-}
-.room .up{
-    position: absolute;
-    width: 20px;
-    height: 18px;
-    left: 210px;
-    top: 4385px;
-}
-.room .checkOut{
-    position: absolute;
-    width: 113.42px;
-    height: 17.5px;
-    left: 348px;
-    top: 4370px;
-
-    font-family: 'EB Garamond';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    /* or 125% */
-
-    text-transform: uppercase;
-
-    /* White */
-
-    color: #FFFCF6;
-}
-.room .down{
-    position: absolute;
-    width: 20px;
-    height: 18px;
-    left: 528px;
-    top: 4390px;
-}
-.border{
-    position: absolute;
-    width: 1px;
-    height: 55px;
-    left: 290px;
-    top: 4369px;
-    background-color: #FFFCF6;
-    opacity: 0,2;
-}
-.yellow{
-    position: absolute;
-    height: 110px;
-    width: 250px;
-    top: 4339px;
-    left: 580px;
-
-/* Secondary color */
-
-background-color: #FCD043;
-}
-.bookRoom{
-    position: absolute;
-    top: 4369px;
-    left: 649px;
-
-    font-family: 'EB Garamond';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-/* or 111% */
-
-text-align: center;
-text-transform: uppercase;
+   
 }
 
-.divider{
-    position: absolute;
-    width: 1450px;
-    height: 1px;
-    left: 30px;
-    top: 4550px;
-    background-color: #FFFCF6;
-}
+
+
+
+
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 95.6%;
-    height: 300px;
+    width: 100%;
+    height: 420px;
     position: absolute;
-    top: 4600px;
-    left: 30px;
-    color: #FFFCF6;
+   background-color: #313F38;
+   color: #FFFCF6;
+    
+   
    
 }
 .aboutus{
@@ -479,7 +473,7 @@ footer{
     line-height: 28px;
 }
 .aboutus .copy{
-    color: #FFFCF6;
+    
 
     opacity: 0.4;
     font-family: 'EB Garamond';
@@ -487,7 +481,8 @@ footer{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    margin-top: 100px;
+    margin-top: 80px;
+    
 }
 .news{
     width: 300px;
@@ -517,6 +512,9 @@ footer{
     width: 285px;
     height: 64px;
     margin-bottom: -30px;
+   
+    background-color: #fffcf6;
+    border: 1px solid #313F38;
 }
 .social{
     width: 350px;
@@ -530,6 +528,7 @@ footer{
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    
 }
 
 .medias{
@@ -543,6 +542,7 @@ footer{
     font-size: 16px;
     line-height: 20px;
 }
+
 .slash{
     color: #FCD043;
 }
